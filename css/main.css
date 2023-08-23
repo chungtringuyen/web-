@@ -1,0 +1,45 @@
+.header {
+    height: 120px;
+    background-image: linear-gradient(0, #e94012,#f53e2d);
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    justify-content: space-around;
+}
+
+/*xóa dấu chấm*/
+.header__navbar-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+    
+}
+
+.header__navbar-item {
+    margin: 0 9px;
+}
+
+.header__navbar-item {
+    display: inline-block;
+    font-size: 1.6rem;
+    color: var(--white-color);
+    text-decoration: none;
+    font-weight: 300;
+}
+/* làm mờ đi*/
+.header__navbar-item:hover {
+    cursor: pointer;
+    color: rgba(240, 255, 255, 0.89);
+}
+.head__navbar-icon-link {
+    color: azure;
+    text-decoration: none;
+}
+
+.header__navbar-title--on-pointer {
+    cursor: text;
+    color: var(--white-color);
+}
